@@ -1,12 +1,22 @@
 language: python
+services:
+  -docker
+
+
 python:
   - "3.6"
+
+
 
 install:
   - make deps
 
+
+
 script:
   - make test
+
+  
 
 deploy:
     provider: heroku
