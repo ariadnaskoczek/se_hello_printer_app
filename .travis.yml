@@ -1,24 +1,11 @@
 language: python
 services:
-  -docker
-
-
-python:
-  - "3.6"
-
-
-
+  - docker
 install:
   - make deps
-
-
-
 script:
   - make test
-
-  
-
 deploy:
-    provider: heroku
-    app: tranquil-beyond-59817
-    api_key: ${HEROKU_API_KEY}
+  provider: heroku
+  app: tranquil-beyond-59817
+  api_key: ${HEROKU_API_KEY}
