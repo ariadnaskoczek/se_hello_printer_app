@@ -7,7 +7,7 @@
 
 #Status Monitoring StatusCake:
 
-[![Build Status](https://app.statuscake.com/button/index.php?Track=6003171&Days=1&Design=3)]https://app.statuscake.com/UptimeStatus.php?tid=6003171
+[![Build Status](https://app.statuscake.com/button/index.php?Track=6003171&Days=1&Design=6)](https://app.statuscake.com/UptimeStatus.php?tid=6003171)
 
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
