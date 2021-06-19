@@ -4,6 +4,11 @@ python:
 
 install:
   - make deps
-  
+
   script:
   - make test
+
+  deploy:
+    provider: heroku
+    app: tranquil-beyond-59817
+    api_key: ${HEROKU_API_KEY}
