@@ -4,7 +4,7 @@ services:
 install:
   - make deps
 script:
-  - make test
+  - make test_cov
 deploy:
   provider: heroku
   app: tranquil-beyond-59817
